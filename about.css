@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #81c644;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+  margin-top: 10%;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: px;
+  text-align: center;
+  height: 84px;
+
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 50px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 15px;
+  color: #8e8b8b;  
+  position: relative;
+  box-shadow:1px 2px 4px hsl(220deg 60% 50%);
+}
+
+
+.team .team_member h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow:1px 2px 4px hsl(220deg 60% 50%);
+  
+}
+.back-button:hover {
+  background: #fff;
+  color: #06ff2f;
+}
+.team_member {
+  transition: transform 0.3s;
+}
+
+.team_member:hover {
+  transform: scale(1.23);
+
+  
+}
+
+.back-button {
+  transition: transform 0.3s;
+}
+
+.back-button:hover {
+  transform: scale(1.23);
+  
+}
